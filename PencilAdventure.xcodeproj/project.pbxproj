@@ -15,6 +15,7 @@
 		0B00D4B719E2F497004398AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B00D4B619E2F497004398AA /* Images.xcassets */; };
 		0B00D4BA19E2F497004398AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B00D4B819E2F497004398AA /* LaunchScreen.xib */; };
 		0B00D4C619E2F498004398AA /* PencilAdventureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B00D4C519E2F498004398AA /* PencilAdventureTests.swift */; };
+		0BBBCB1319F99F45004E1F9D /* 1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0BBBCB1219F99F45004E1F9D /* 1.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		0B00D4BF19E2F498004398AA /* PencilAdventureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PencilAdventureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B00D4C419E2F498004398AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B00D4C519E2F498004398AA /* PencilAdventureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilAdventureTests.swift; sourceTree = "<group>"; };
+		0BBBCB1219F99F45004E1F9D /* 1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = 1.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		0B00D4A819E2F497004398AA /* PencilAdventure */ = {
 			isa = PBXGroup;
 			children = (
+				0BBBCB1219F99F45004E1F9D /* 1.sks */,
 				0B00D4AB19E2F497004398AA /* AppDelegate.swift */,
 				0B00D4AD19E2F497004398AA /* GameScene.sks */,
 				0B00D4AF19E2F497004398AA /* GameScene.swift */,
@@ -201,6 +204,7 @@
 				0B00D4BA19E2F497004398AA /* LaunchScreen.xib in Resources */,
 				0B00D4B719E2F497004398AA /* Images.xcassets in Resources */,
 				0B00D4AE19E2F497004398AA /* GameScene.sks in Resources */,
+				0BBBCB1319F99F45004E1F9D /* 1.sks in Resources */,
 				0B00D4B519E2F497004398AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +417,7 @@
 				0B00D4CB19E2F498004398AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B00D4CC19E2F498004398AA /* Build configuration list for PBXNativeTarget "PencilAdventureTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +426,7 @@
 				0B00D4CE19E2F498004398AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

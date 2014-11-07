@@ -16,6 +16,7 @@
 		0B00D4BA19E2F497004398AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B00D4B819E2F497004398AA /* LaunchScreen.xib */; };
 		0B00D4C619E2F498004398AA /* PencilAdventureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B00D4C519E2F498004398AA /* PencilAdventureTests.swift */; };
 		0BBBCB1319F99F45004E1F9D /* 1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0BBBCB1219F99F45004E1F9D /* 1.sks */; };
+		0BDC4F451A0D4CFC00A56F83 /* LevelSelectScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDC4F441A0D4CFC00A56F83 /* LevelSelectScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		0B00D4C419E2F498004398AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B00D4C519E2F498004398AA /* PencilAdventureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilAdventureTests.swift; sourceTree = "<group>"; };
 		0BBBCB1219F99F45004E1F9D /* 1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = 1.sks; sourceTree = "<group>"; };
+		0BDC4F441A0D4CFC00A56F83 /* LevelSelectScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelSelectScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				0B00D4AB19E2F497004398AA /* AppDelegate.swift */,
 				0B00D4AD19E2F497004398AA /* GameScene.sks */,
 				0B00D4AF19E2F497004398AA /* GameScene.swift */,
+				0BDC4F441A0D4CFC00A56F83 /* LevelSelectScene.swift */,
 				0B00D4B119E2F497004398AA /* GameViewController.swift */,
 				0B00D4B319E2F497004398AA /* Main.storyboard */,
 				0B00D4B619E2F497004398AA /* Images.xcassets */,
@@ -226,6 +229,7 @@
 				0B00D4B019E2F497004398AA /* GameScene.swift in Sources */,
 				0B00D4B219E2F497004398AA /* GameViewController.swift in Sources */,
 				0B00D4AC19E2F497004398AA /* AppDelegate.swift in Sources */,
+				0BDC4F451A0D4CFC00A56F83 /* LevelSelectScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

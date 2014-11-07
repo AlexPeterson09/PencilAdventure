@@ -5,7 +5,11 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< Updated upstream
 	<string>42E718E8-2F63-4CA3-B975-FDAF4A3DCBDF</string>
+=======
+	<string>E88A2557-A836-4719-B245-369A1BDF700B</string>
+>>>>>>> Stashed changes
 	<key>IDESourceControlProjectName</key>
 	<string>PencilAdventure</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>

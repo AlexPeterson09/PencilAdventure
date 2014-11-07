@@ -109,34 +109,34 @@ class GameScene : SKScene, SKPhysicsContactDelegate {
         
     }
     
-    func gameEnd(didWin:Bool) {
-        if didWin {
-            NSLog("Yeah! You won!")     //#1
-        } else {
-            NSLog("Oh No! Game Over!")  //#2
-        }
-    }
-    
     func didBeginContact(contact: SKPhysicsContact) {
-        
-        if (contact.bodyA.categoryBitMask & powerupCategory) == powerupCategory ||
-            (contact.bodyB.categoryBitMask & powerupCategory) == powerupCategory {
-                NSLog("get extra life")
+        //#1
+        if (contact.bodyA.categoryBitMask & powerupCategory) == powerupCategory || (contact.bodyB.categoryBitMask & powerupCategory) == powerupCategory {
+            NSLog("get extra life")
         }
-        
-        if (contact.bodyA.categoryBitMask & levelCategory) == levelCategory ||
-            (contact.bodyB.categoryBitMask & levelCategory) == levelCategory {
-                NSLog("Steve can Jump")
+        //#2
+        if (contact.bodyA.categoryBitMask & groundCategory) == groundCategory || (contact.bodyB.categoryBitMask & groundCategory) == groundCategory {
+            NSLog("Oh No! Game over")
         }
-        
+        //#3
+        if (contact.bodyA.categoryBitMask & levelCategory) == levelCategory || (contact.bodyB.categoryBitMask & levelCategory) == levelCategory {
+            NSLog("Steve can Jump")
+        }
         if (contact.bodyA.categoryBitMask & groundCategory) == groundCategory ||
             (contact.bodyB.categoryBitMask & groundCategory) == groundCategory {
                 gameEnd(false)             //#1
         }
         //#2
-        if (contact.bodyA.categoryBitMask & finishCategory) == finishCategory ||
-            (contact.bodyB.categoryBitMask & finishCategory) == finishCategory {
+        if (contact.bodyA.categoryBitMask & finishCategory) == finishCategory || (contact.bodyB.categoryBitMask & finishCategory) == finishCategory {
                 gameEnd(true) 				//#3
+        }
+    }
+    
+    func gameEnd(didWin:Bool) {
+        if didWin {
+            NSLog("Yeah! You won!")     //#1
+        } else {
+            NSLog("Oh No! Game Over!")  //#2
         }
     }
     
